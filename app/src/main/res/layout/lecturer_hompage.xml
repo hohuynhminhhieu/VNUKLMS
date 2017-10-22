@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/edit_margin_top"
         android:background="@drawable/button"
-        android:text="@string/btn_ltr_info"
+        android:text="@string/txt_ltr_info"
         android:textAllCaps="false"
         android:textColor="@color/White"
         android:textSize="@dimen/text_size_large"
@@ -61,6 +61,30 @@
         android:layout_marginTop="@dimen/edit_margin_top"
         android:background="@drawable/button"
         android:text="@string/btn_doc_sharing"
+        android:textAllCaps="false"
+        android:textColor="@color/White"
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_ls_lecture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/edit_margin_top"
+        android:background="@color/Cardinal"
+        android:text="@string/btn_ls_lecture"
+        android:textAllCaps="false"
+        android:textColor="@color/White"
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_ls_notices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/edit_margin_top"
+        android:background="@color/Cardinal"
+        android:text="@string/btn_ls_notices"
         android:textAllCaps="false"
         android:textColor="@color/White"
         android:textSize="@dimen/text_size_large"
