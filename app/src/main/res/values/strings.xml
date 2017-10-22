@@ -20,4 +20,9 @@
     <string name="txt_ls_lecture">Môn học</string>
     <string name="btn_ls_notices">Xem thông báo</string>
     <string name="txt_ls_notices">Thông báo</string>
+    <string name="txt_new_notice">Tạo thông báo</string>
+    <string name="txt_notice_title">Tiêu đề:</string>
+    <string name="txt_notice_content">Nội dung:</string>
+    <string name="txt_notice_receiver">Nơi nhận</string>
+
 </resources>
