@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/White"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hhmhieu.vnuklmslogin.MainActivity">
+
+    <ImageView
+        android:id="@+id/vnuk_logo"
+        android:src="@drawable/img_vnuklogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_right"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter" />
+
+    <EditText
+        android:layout_below="@+id/vnuk_logo"
+        android:id="@+id/std_id"
+        android:hint="@string/hint_std_id"
+        android:textSize="@dimen/text_size_large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/edit_margin_right"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginTop="@dimen/edit_margin_top"
+        android:padding="10dp"/>
+
+    <EditText
+        android:layout_below="@+id/std_id"
+        android:id="@+id/std_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_pass"
+        android:textSize="@dimen/text_size_large"
+        android:layout_marginTop="@dimen/edit_margin_top"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_right"
+        android:padding="10dp"/>
+
+    <Button
+        android:layout_below="@+id/std_pass"
+        android:id="@+id/btn_login"
+        android:layout_marginTop="@dimen/edit_margin_top"
+        android:layout_marginRight="@dimen/edit_margin_right"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:text="@string/btn_login"
+        android:background="@drawable/button"
+        android:textColor="@color/White"
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_help"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/edit_margin_bottom"
+        android:layout_marginRight="@dimen/edit_margin_right"
+        android:text="@string/btn_help"
+        android:textColor="@color/White"
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold"
+        android:background="@drawable/circlebutton"
+        android:layout_width="@dimen/box_size"
+        android:layout_height="@dimen/box_size" />
+
+    <Button
+        android:id="@+id/btn_forgot"
+        android:layout_alignParentBottom="true"
+        android:text="@string/btn_forgot"
+        android:textSize="@dimen/text_size_small"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/edit_margin_bottom"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_right"
+        android:textAllCaps="false"
+        android:background="@color/Transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/box_size" />
+</RelativeLayout>
