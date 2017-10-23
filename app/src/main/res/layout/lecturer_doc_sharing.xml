@@ -2,9 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/edit_margin_bottom"
     android:layout_marginLeft="@dimen/edit_margin_left"
     android:layout_marginRight="@dimen/edit_margin_right"
-    android:layout_marginBottom="@dimen/edit_margin_bottom"
     android:layout_marginTop="@dimen/edit_margin_top"
     android:gravity="center_horizontal"
     android:orientation="vertical">
@@ -49,8 +49,8 @@
                     android:layout_width="@dimen/text_size_large"
                     android:layout_height="@dimen/text_size_large"
                     android:layout_alignParentRight="true"
-                    android:background="@drawable/img_icon_upload"
-                    android:layout_marginRight="@dimen/edit_margin_right"/>
+                    android:layout_marginRight="@dimen/edit_margin_right"
+                    android:background="@drawable/img_icon_upload" />
             </RelativeLayout>
 
         </TableRow>
@@ -95,8 +95,8 @@
                     android:layout_width="@dimen/text_size_large"
                     android:layout_height="@dimen/text_size_large"
                     android:layout_alignParentRight="true"
-                    android:background="@drawable/img_icon_upload"
-                    android:layout_marginRight="@dimen/edit_margin_right"/>
+                    android:layout_marginRight="@dimen/edit_margin_right"
+                    android:background="@drawable/img_icon_upload" />
             </RelativeLayout>
 
         </TableRow>
