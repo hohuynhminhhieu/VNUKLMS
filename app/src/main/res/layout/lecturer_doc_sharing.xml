@@ -4,6 +4,8 @@
     android:layout_height="match_parent"
     android:layout_marginLeft="@dimen/edit_margin_left"
     android:layout_marginRight="@dimen/edit_margin_right"
+    android:layout_marginBottom="@dimen/edit_margin_bottom"
+    android:layout_marginTop="@dimen/edit_margin_top"
     android:gravity="center_horizontal"
     android:orientation="vertical">
 
@@ -27,7 +29,8 @@
         <TableRow
             android:id="@+id/syllabus_upload"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/edit_margin_top">
 
             <RelativeLayout
                 android:layout_width="wrap_content"
@@ -67,7 +70,8 @@
     <TableLayout
         android:id="@+id/lecture_note"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/edit_margin_top">
 
         <TableRow
             android:id="@+id/lecture_note_upload"

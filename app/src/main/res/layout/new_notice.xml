@@ -55,11 +55,39 @@
             <EditText
                 android:id="@+id/edt_notice_content"
                 android:layout_weight="1"
-                android:gravity="top|left"
                 android:inputType="textMultiLine"
                 android:scrollbars="vertical"
                 android:textSize="@dimen/text_size_large" />
         </TableRow>
     </TableLayout>
+
+    <TableRow
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/edit_margin_bottom"
+        android:layout_marginTop="@dimen/edit_margin_top">
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_marginLeft="@dimen/edit_margin_left"
+            android:layout_marginRight="@dimen/edit_margin_right"
+            android:background="@drawable/button"
+            android:text="@string/btn_save"
+            android:textColor="@color/White"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_discard"
+            android:layout_marginLeft="@dimen/edit_margin_left"
+            android:layout_marginRight="@dimen/edit_margin_right"
+            android:background="@drawable/button"
+            android:text="@string/btn_discard"
+            android:textColor="@color/White"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+    </TableRow>
 
 </LinearLayout>

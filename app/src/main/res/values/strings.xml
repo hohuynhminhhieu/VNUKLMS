@@ -24,5 +24,7 @@
     <string name="txt_notice_title">Tiêu đề:</string>
     <string name="txt_notice_content">Nội dung:</string>
     <string name="txt_notice_receiver">Nơi nhận</string>
+    <string name="btn_save">Lưu</string>
+    <string name="btn_discard">Hủy</string>
 
 </resources>
