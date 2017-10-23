@@ -5,13 +5,14 @@ package com.hhmhieu.vnuklmslogin;
  */
 
 public class Syllabus {
-    private int idCourse ;
-    private String link ;
+    private int idCourse;
+    private String link;
     private String description;
 
-    public Syllabus(){
+    public Syllabus() {
 
     }
+
     public Syllabus(int idCourse, String link, String description) {
         this.idCourse = idCourse;
         this.link = link;
