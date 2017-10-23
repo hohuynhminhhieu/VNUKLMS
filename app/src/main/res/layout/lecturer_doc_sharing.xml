@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/edit_margin_left"
+    android:layout_marginRight="@dimen/edit_margin_right"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_lecture_doc_sharing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="@dimen/edit_margin_top"
+        android:text="@string/btn_doc_sharing"
+        android:textColor="@color/Black"
+        android:textSize="@dimen/text_size_title"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:id="@+id/syllabus_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/edit_margin_bottom"
+        android:layout_marginTop="@dimen/edit_margin_top"
+        android:background="@color/Cardinal">
+
+        <TableRow
+            android:id="@+id/upload_syllabus"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="@dimen/edit_margin_bottom"
+            android:layout_marginTop="@dimen/edit_margin_top"
+            android:background="@color/White">
+
+            <TextView
+                android:id="@+id/textView"
+                android:text="@string/upload_syllabus"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/text_size_large" />
+
+            <Button
+                android:id="@+id/btn_syllabus_upload"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="93dp"
+                android:background="@drawable/img_icon_upload" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/edt_syllabus"
+            android:background="@color/White">
+
+            <ListView android:id="@+id/ls_syllabus"></ListView>
+        </TableRow>
+    </TableLayout>
+
+
+    <TableLayout
+        android:id="@+id/lecture_note_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/edit_margin_bottom"
+        android:layout_marginTop="@dimen/edit_margin_top"
+        android:background="@color/Cardinal">
+
+        <TableRow
+            android:id="@+id/upload_lecture_note"
+            android:layout_margin="5dp"
+            android:background="@color/White">
+
+            <TextView
+                android:text="@string/upload_lecture_note"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/text_size_large" />
+
+            <Button
+                android:id="@+id/btn_lecture_note_upload"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity=""
+                android:background="@drawable/img_icon_upload" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/edt_lecture_note"
+            android:background="@color/White">
+
+            <ListView android:id="@+id/ls_lecture_note"></ListView>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
