@@ -86,7 +86,7 @@
                     android:id="@+id/txt_lecture_note_upload"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/upload_syllabus"
+                    android:text="@string/upload_lecture_note"
                     android:textColor="@color/Black"
                     android:textSize="@dimen/text_size_large" />
 
