@@ -5,7 +5,8 @@
     android:layout_marginLeft="@dimen/edit_margin_left"
     android:layout_marginRight="@dimen/edit_margin_right"
     android:gravity="center"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/White">
 
     <!-- Phần ni hiển thị ảnh giảng viên -->
 

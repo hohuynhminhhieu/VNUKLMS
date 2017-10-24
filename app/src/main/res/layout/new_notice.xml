@@ -3,10 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center_horizontal"
-    android:layout_marginBottom="@dimen/edit_margin_bottom"
-    android:layout_marginLeft="@dimen/edit_margin_left"
-    android:layout_marginRight="@dimen/edit_margin_right"
-    android:layout_marginTop="@dimen/edit_margin_top"
     android:orientation="vertical">
 
     <TextView
@@ -16,13 +12,20 @@
         android:text="@string/txt_new_notice"
         android:textColor="@color/Black"
         android:textSize="@dimen/text_size_title"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/edit_margin_bottom"
+        android:layout_marginTop="@dimen/edit_margin_top"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_right"/>
 
     <TableLayout
         android:id="@+id/edt_new_notice_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/edit_margin_top">
+        android:layout_marginBottom="@dimen/edit_margin_bottom"
+        android:layout_marginTop="@dimen/edit_margin_top"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_right">
 
         <TableRow
             android:id="@+id/new_notice_title"

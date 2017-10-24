@@ -2,15 +2,15 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginLeft="@dimen/edit_margin_left"
-    android:layout_marginRight="@dimen/edit_margin_right"
     android:gravity="center_horizontal"
     android:orientation="vertical">
 
     <TableRow
 
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_right">
 
         <TextView
             android:id="@+id/study_result"

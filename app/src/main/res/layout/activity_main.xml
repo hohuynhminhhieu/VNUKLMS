@@ -3,10 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginLeft="@dimen/edit_margin_left"
-    android:layout_marginRight="@dimen/edit_margin_right"
     android:background="@color/White"
-    android:orientation="vertical"
     tools:context="com.hhmhieu.vnuklmslogin.MainActivity">
 
     <ImageView
@@ -17,6 +14,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="@dimen/edit_margin_top"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_right"
         android:adjustViewBounds="true"
         android:scaleType="fitCenter"
         android:src="@drawable/img_vnuklogo" />
@@ -29,7 +28,9 @@
         android:layout_marginTop="@dimen/edit_margin_top"
         android:hint="@string/hint_std_id"
         android:padding="10dp"
-        android:textSize="@dimen/text_size_large" />
+        android:textSize="@dimen/text_size_large"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_right"/>
 
     <EditText
         android:id="@+id/std_pass"
@@ -39,7 +40,9 @@
         android:layout_marginTop="@dimen/edit_margin_top"
         android:hint="@string/hint_pass"
         android:padding="10dp"
-        android:textSize="@dimen/text_size_large" />
+        android:textSize="@dimen/text_size_large"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_right"/>
 
     <Button
         android:id="@+id/btn_login"
@@ -52,7 +55,9 @@
         android:textAllCaps="false"
         android:textColor="@color/White"
         android:textSize="@dimen/text_size_large"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_right"/>
 
     <Button
         android:id="@+id/btn_forgot"
@@ -64,5 +69,7 @@
         android:background="@color/Transparent"
         android:text="@string/btn_forgot"
         android:textAllCaps="false"
-        android:textSize="@dimen/text_size_small" />
+        android:textSize="@dimen/text_size_small"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_right"/>
 </RelativeLayout>

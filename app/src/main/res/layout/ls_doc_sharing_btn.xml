@@ -5,7 +5,8 @@
     android:layout_marginLeft="@dimen/edit_margin_left"
     android:layout_marginRight="@dimen/edit_margin_right"
     android:gravity="center_horizontal"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/White">
 
     <TableRow
         android:id="@+id/listview_btn"

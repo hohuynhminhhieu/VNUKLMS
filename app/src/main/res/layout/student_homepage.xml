@@ -2,8 +2,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginLeft="@dimen/edit_margin_left"
-    android:layout_marginRight="@dimen/edit_margin_right"
     android:gravity="center"
     android:orientation="vertical">
 
@@ -14,7 +12,10 @@
 
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_gravity="center" />
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_right"
+        android:layout_marginTop="@dimen/edit_margin_top"/>
 
     <!-- Phần ni để hiển thị tên sinh viên -->
 
@@ -23,6 +24,8 @@
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_right"
         android:layout_marginTop="@dimen/edit_margin_top"
         android:gravity="center"
         android:textAllCaps="true"
@@ -34,6 +37,8 @@
         android:id="@+id/btn_std_info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_right"
         android:layout_marginTop="@dimen/edit_margin_top"
         android:background="@drawable/button"
         android:text="@string/txt_std_info"
@@ -46,6 +51,8 @@
         android:id="@+id/btn_lichhoc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_right"
         android:layout_marginTop="@dimen/edit_margin_top"
         android:background="@drawable/button"
         android:text="@string/btn_lichhoc"
@@ -58,6 +65,8 @@
         android:id="@+id/btn_diem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_right"
         android:layout_marginTop="@dimen/edit_margin_top"
         android:background="@drawable/button"
         android:text="@string/btn_diem"
@@ -70,6 +79,8 @@
         android:id="@+id/btn_ls_lecture"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_right"
         android:layout_marginTop="@dimen/edit_margin_top"
         android:background="@color/Cardinal"
         android:text="@string/btn_ls_lecture"
@@ -82,6 +93,8 @@
         android:id="@+id/btn_ls_notices"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_right"
         android:layout_marginTop="@dimen/edit_margin_top"
         android:background="@color/Cardinal"
         android:text="@string/btn_ls_notices"
@@ -94,6 +107,8 @@
         android:id="@+id/btn_feedback"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_right"
         android:layout_marginTop="@dimen/edit_margin_top"
         android:background="@drawable/button"
         android:text="@string/btn_feedback"
@@ -106,6 +121,8 @@
         android:id="@+id/btn_logout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_right"
         android:layout_marginTop="@dimen/edit_margin_top"
         android:background="@drawable/button"
         android:text="@string/btn_logout"

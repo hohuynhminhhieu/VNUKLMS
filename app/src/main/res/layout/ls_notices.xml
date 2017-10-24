@@ -3,9 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center_horizontal"
-    android:layout_marginLeft="@dimen/edit_margin_left"
-    android:layout_marginRight="@dimen/edit_margin_right"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/White">
 
     <TextView
         android:id="@+id/title_ls_notices"
@@ -14,6 +13,8 @@
         android:layout_alignParentLeft="true"
         android:layout_marginBottom="@dimen/edit_margin_bottom"
         android:layout_marginTop="@dimen/edit_margin_top"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_right"
         android:text="@string/txt_ls_notices"
         android:textColor="@color/Black"
         android:textSize="@dimen/text_size_title"
@@ -22,6 +23,10 @@
     <ListView
         android:id="@+id/ls_notices"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"></ListView>
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/edit_margin_bottom"
+        android:layout_marginTop="@dimen/edit_margin_top"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_right"></ListView>
 
 </LinearLayout>
